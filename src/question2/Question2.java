@@ -1,9 +1,12 @@
 package question2;
 
-public class Question2 {
-    pubblic
+import java.util.Scanner;
 
-    static void main(String[] args) {
+public class Question2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double m = sc.nextDouble();
+
 
     }
 }
