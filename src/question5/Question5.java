@@ -12,6 +12,11 @@ public class Question5 {
         int y1 = year / 100;
         int f = 0;
         f = date + ((13 * month - 1) / 5) + y2 + (y2 / 4) + (y1 / 4) - 2 * y1;
+        int day = f % 7;
+        if (day < 0)
+            day = day + 7;
+        else
+            day = day;
 
 
     }
